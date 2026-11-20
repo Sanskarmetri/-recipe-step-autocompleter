@@ -215,6 +215,15 @@ Suggested next words:
 
 Users can select a suggestion to continue extending
 their cooking instructions.
+## Application Screenshots
+
+### Initial Suggestions
+
+![Initial autocomplete suggestions](screenshots/cli-demo.png)
+
+### Interactive Word Selection
+
+![Updated instruction after word selection](screenshots/cli-demo-selection.png)
 ## Model Evaluation
 
 The model is evaluated using Leave-One-Recipe-Out
