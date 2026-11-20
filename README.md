@@ -1,10 +1,10 @@
-Recipe Step Autocompleter
+# Recipe Step Autocompleter
 
 A Python-based Natural Language Processing (NLP) project that predicts and suggests the next word in an incomplete cooking instruction using statistical language models.
 
 The application uses Unigram, Bigram and Trigram models with Maximum Likelihood Estimation (MLE), Laplace smoothing and a backoff strategy to generate next-word suggestions through an interactive command-line interface.
 
-Features
+## Features
 
 * Recipe instruction preprocessing and tokenization.
 * Unigram, Bigram and Trigram language models.
@@ -18,7 +18,7 @@ Features
 * JSON-based key-value storage utility.
 * Optional LLM API integration supporting compatible Ollama, Groq and Gemini endpoints.
 
-How It Works
+## How It Works
 
 The application follows a statistical NLP pipeline.
 
@@ -87,7 +87,7 @@ Available commands:
 * new — Start a new instruction.
 * exit — Close the application.
 
-Project Structure
+## Project Structure
 
 recipe-step-autocompleter/
 │
@@ -114,9 +114,9 @@ recipe-step-autocompleter/
 ├── requirements.txt
 └── README.md
 
-Installation
+## Installation
 
-Requirements
+### Requirements
 
 * Python 3.12
 * pip
@@ -124,7 +124,7 @@ Requirements
 
 1. Clone the repository
 
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Sanskarmetri/-recipe-step-autocompleter.git
 cd recipe-step-autocompleter
 
 2. Create a virtual environment
@@ -161,7 +161,7 @@ Supported configurations include:
 
 Refer to .env.example for configuration examples.
 
-Usage
+## Usage
 
 Verify installation
 
