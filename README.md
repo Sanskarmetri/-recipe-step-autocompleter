@@ -177,7 +177,44 @@ Run automated tests
 
 pytest -v
 
+## Sample Execution
 
+The following example demonstrates the interactive
+command-line autocomplete system.
+
+### Example 1
+
+Input:
+
+    heat oil in
+
+Suggested next words:
+
+    1. a (2.86%)
+    2. add (1.43%)
+    3. and (1.43%)
+
+After selecting option 1:
+
+    Updated instruction:
+    heat oil in a
+
+### Example 2
+
+The system generates new suggestions using the updated context.
+
+Input:
+
+    heat oil in a
+
+Suggested next words:
+
+    1. large (2.78%)
+    2. pan (2.78%)
+    3. saucepan (2.78%)
+
+Users can select a suggestion to continue extending
+their cooking instructions.
 ## Model Evaluation
 
 The model is evaluated using Leave-One-Recipe-Out
